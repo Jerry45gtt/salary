@@ -1,0 +1,30 @@
+{
+  "name": "salary",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "db:migrate": "node scripts/migrate.mjs"
+  },
+  "dependencies": {
+    "@better-auth/drizzle-adapter": "^1.7.23",
+    "@libsql/client": "^0.18.0",
+    "better-auth": "^1.7.23",
+    "drizzle-orm": "^0.45.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "latest",
+    "typescript": "^5"
+  }
+}
